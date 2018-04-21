@@ -1,19 +1,16 @@
 /*
-Error: File to import not found or unreadable: base/normalize.
-        on line 4 of estilos.scss
+Error: File to import not found or unreadable: variaveis.
+        on line 1 of footer.scss
 
-1: @import "helpers/variaveis";
-2: @import "helpers/mixins";
+1: @import "variaveis";
+2: @import "mixins";
 3: 
-4: @import "base/normalize";
-5: @import "layout/geral";
-6: @import "layout/header";
-7: @import "layout/destaque";
-8: @import "layout/sobre";
-9: @import "layout/planos";
+4: /** Footer **\/
+5: footer {
+6:   display: block;
 
 Backtrace:
-estilos.scss:4
+footer.scss:1
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:44:in `import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -56,4 +53,4 @@ C:/Ruby24-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: base/normalize.\A         on line 4 of estilos.scss\A \A 1: @import \"helpers/variaveis\";\A 2: @import \"helpers/mixins\";\A 3: \A 4: @import \"base/normalize\";\A 5: @import \"layout/geral\";\A 6: @import \"layout/header\";\A 7: @import \"layout/destaque\";\A 8: @import \"layout/sobre\";\A 9: @import \"layout/planos\";"; }
+  content: "Error: File to import not found or unreadable: variaveis.\A         on line 1 of footer.scss\A \A 1: @import \"variaveis\";\A 2: @import \"mixins\";\A 3: \A 4: /** Footer **/\A 5: footer {\A 6:   display: block;"; }

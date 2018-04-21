@@ -1,0 +1,31 @@
+.contato input,
+.contato button {
+  display: block; }
+
+form {
+  margin: 0 auto;
+  width: 50%; }
+
+.contato input,
+textarea {
+  width: 100%;
+  margin-bottom: .8em;
+  padding: 4px 8px;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: 2px solid #ccc; }
+
+.contato button {
+  margin: 0 auto;
+  background: #c24e4b;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
+
+/*# sourceMappingURL=contato.css.map */
