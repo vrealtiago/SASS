@@ -25,6 +25,9 @@
   width: 48%;
   display: inline-block;
   vertical-align: top;
+  @media #{$mqMobile} {
+    width: auto;
+  }
 }
 
 .post-destaque {
