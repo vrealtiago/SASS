@@ -1,5 +1,5 @@
-@import "variaveis";
-@import "mixins";
+@import "../helpers/variaveis";
+@import "../helpers/mixins";
 
 /** Contato **/
 .contato input,
@@ -30,5 +30,5 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   @include bordaArredondada;
-  @include sombraPadrao;
+  @extend %sombraPadrao;
 }
