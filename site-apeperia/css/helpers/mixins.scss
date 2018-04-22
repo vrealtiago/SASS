@@ -1,6 +1,11 @@
+@import "variaveis";
 @mixin bordaArredondada($raio: 0.3em){
   -webkit-border-radius: $raio;
   border-radius: $raio;
+}
+
+@function multiplicaFonte($multiplicador){
+  @return round($multiplicador*$tamanhoFontePadrao);
 }
 
 %image-replacement{
